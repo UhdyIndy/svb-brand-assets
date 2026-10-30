@@ -1,21 +1,18 @@
 {
   "brand": "SVB-Racking",
-  "logo": "assets/logo.png",
+  "logos": {
+    "transparent": "assets/logo-transparent.png",
+    "opaque_navy": "assets/logo.png"
+  },
   "colors": {
     "navy": "#08266B",
     "gold": "#735C05",
-    "orange": "#DB400C",
-    "white": "#FFFFFF",
-    "steel_700": "#383838",
-    "steel_500": "#767574",
-    "steel_200": "#E0DFDF",
-    "steel_50": "#F5F6F8"
+    "orange": "#DB400C"
   },
   "usage": {
-    "background": "#08266B (primary dark surfaces, hero, footer)",
-    "wordmark_and_rules": "#735C05 (serif headline accents, dividers, badges)",
-    "cta": "#DB400C (buttons/links only)",
-    "body": "#383838 on white"
+    "light_backgrounds": "assets/logo-transparent.png directly (gold + orange on white)",
+    "dark_backgrounds": "assets/logo-transparent.png on navy #08266B, or assets/logo.png when a solid navy tile is required",
+    "cta": "#DB400C only"
   },
-  "logo_notes": "Do not redraw the wordmark. Use the provided PNG. Serif letterforms, thin vertical bar before SVB, tagline \"Warehouse Expert\" in orange."
+  "logo_notes": "Serif SVB / RACKING with thin vertical bar at left, tagline Warehouse Expert in orange. Never redraw or substitute fonts; use the PNG."
 }
