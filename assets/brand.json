@@ -1,0 +1,21 @@
+{
+  "brand": "SVB-Racking",
+  "logo": "assets/logo.png",
+  "colors": {
+    "navy": "#08266B",
+    "gold": "#735C05",
+    "orange": "#DB400C",
+    "white": "#FFFFFF",
+    "steel_700": "#383838",
+    "steel_500": "#767574",
+    "steel_200": "#E0DFDF",
+    "steel_50": "#F5F6F8"
+  },
+  "usage": {
+    "background": "#08266B (primary dark surfaces, hero, footer)",
+    "wordmark_and_rules": "#735C05 (serif headline accents, dividers, badges)",
+    "cta": "#DB400C (buttons/links only)",
+    "body": "#383838 on white"
+  },
+  "logo_notes": "Do not redraw the wordmark. Use the provided PNG. Serif letterforms, thin vertical bar before SVB, tagline \"Warehouse Expert\" in orange."
+}
